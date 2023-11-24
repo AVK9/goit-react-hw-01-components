@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 import data from './data.json';
 
@@ -20,10 +20,10 @@ const Statistics = () => {
 
     return container;
 };
-Statistics.propTypes= {
+// Statistics.propTypes= {
     // id: PropTypes.string.isRequired,
     // label: PropTypes.string.isRequired,
     // percentage: PropTypes.string.isRequired,
-}
+// }
 
 export default Statistics;

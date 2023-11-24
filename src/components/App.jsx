@@ -1,7 +1,14 @@
+import PageCard from './Profile/Profile'
+import TaskHead from './TaskHead/TaskHead';
+
+
+
 export const App = () => {
   return (
-    <div>
-      Привет Андрей!
-    </div>
+    <>
+      <TaskHead text="1 - Профіль соціальної мережі" />
+      <PageCard />
+      <TaskHead text="2 - Секція статистики" />
+    </>
   );
 };

@@ -1,13 +1,14 @@
 .profile {
   background-color: rgb(255, 255, 255);
   width: 350px;
-  height: 450px;
   border: 1px solid rgba(66, 66, 66, 0.2);
   border-radius: 5px;
   box-shadow: 2px 2px 2px 1px rgba(66, 66, 66, 0.2);
   display: flex;
-  flex-direction: column;
   text-align: center;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .profile:hover,
 .profile:focus {
@@ -43,12 +44,13 @@
 .stats {
   background-color: rgb(240, 240, 240);
   padding: 0;
-  list-style: none;
+  margin: 0;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 5px;
 }
 .statsItem {
-  width: 150px;
+  width: 114px;
   height: 70px;
   border: 1px solid rgba(207, 207, 207, 0.2);
   display: flex;

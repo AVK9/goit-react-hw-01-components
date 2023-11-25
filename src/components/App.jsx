@@ -1,6 +1,10 @@
 import PageCard from './Profile/Profile'
 import TaskHead from './TaskHead/TaskHead';
 import Statistics from './Statistics/Statistics'
+import { FriendList } from './FriendList/FriendList'
+import {TransactionHistory} from './TransactionHistory/TransactionHistory'
+import friends from '../data/friends.json'
+import transactions from '../data/transactions.json'
 
 
 export const App = () => {
@@ -10,6 +14,10 @@ export const App = () => {
       <PageCard />
       <TaskHead text="2 - Секція статистики" />
       <Statistics />
+      <TaskHead text="3 - Список друзів" />
+      <FriendList friends={friends} />
+      <TaskHead text="4 - Історія транзакцій" />
+      <TransactionHistory items={transactions} />
     </>
   );
 };

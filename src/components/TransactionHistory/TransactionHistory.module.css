@@ -1,0 +1,39 @@
+.transactionHistory {
+  width: 600px;
+  margin: 0 auto;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 0.5px solid rgb(231, 231, 231);
+}
+.thead {
+  background-color: #00bcd5;
+  height: 50px;
+  width: 200px;
+  border: 1px solid grey;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+th {
+  width: 300px;
+}
+
+.tablRow2 {
+  background-color: #ecf1f4;
+  height: 40px;
+}
+.tablRow {
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+}
+.typeCol {
+  text-transform: capitalize;
+  padding-left: 50px;
+}
+
+.amountCol,
+.currencyCol {
+  text-align: center;
+}

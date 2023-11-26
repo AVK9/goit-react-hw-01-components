@@ -1,13 +1,13 @@
 .statistics {
   background-color: rgb(255, 255, 255);
-  width: 350px;
   border: 1px solid rgba(66, 66, 66, 0.2);
   border-radius: 5px;
   box-shadow: 2px 2px 2px 1px rgba(66, 66, 66, 0.2);
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 100%;
 }
 .statistics:hover,
 .statistics:focus {
@@ -20,22 +20,27 @@
 }
 
 .statList {
-  /* background-color: rgb(179, 111, 9); */
   border-radius: 5px;
-  padding: 0;
-  margin-bottom: auto;
   display: flex;
-  justify-content: flex-start;
   flex-wrap: wrap;
 }
 .item {
-  width: 85px;
+  width: 62px;
   height: 70px;
   border: 1px solid rgba(207, 207, 207, 0.2);
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.item:hover,
+.item:focus {
+  border-radius: 5px;
+  border: 1px solid rgba(207, 207, 207, 0.2);
+  scale: 1.1;
+  box-shadow: 1px 1px 1px 1px rgba(207, 207, 207, 0.2);
 }
 .label {
   font-weight: 600;

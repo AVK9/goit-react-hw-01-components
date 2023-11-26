@@ -1,6 +1,5 @@
 .transactionHistory {
-  width: 600px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 table,
 th,
@@ -30,10 +29,16 @@ th {
 }
 .typeCol {
   text-transform: capitalize;
-  padding-left: 50px;
+  padding-left: 20px;
 }
 
 .amountCol,
 .currencyCol {
   text-align: center;
+}
+.tablRow:hover,
+.tablRow:focus,
+.tablRow2:hover,
+.tablRow2:focus {
+  background-color: rgb(166, 216, 164);
 }
